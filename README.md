@@ -10,3 +10,4 @@ This repository documents my structured journey in AI/ML systems engineering.
 - DevOps
 
 Each folder contains runnable code, notes, and learnings.
+# daily contribution
