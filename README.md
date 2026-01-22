@@ -11,3 +11,4 @@ This repository documents my structured journey in AI/ML systems engineering.
 
 Each folder contains runnable code, notes, and learnings.
 # daily contribution
+email fix for github contributions
