@@ -1,0 +1,9 @@
+# Python (global)
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
