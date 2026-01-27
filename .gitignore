@@ -1,9 +1,19 @@
-# Python (global)
+# ---- Python ----
 __pycache__/
 *.pyc
-.venv/
-.python-version
+*.pyo
 
-# OS
+# ---- Virtual environments ----
+.venv/
+venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS ----
 .DS_Store
 Thumbs.db
+
+# ---- Do NOT ignore source code ----
+!Python/
+!Python/**
