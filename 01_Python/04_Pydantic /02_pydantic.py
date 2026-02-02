@@ -1,8 +1,9 @@
-from pydantic import BaseModel,EmailStr # type: ignore
+from pydantic import BaseModel, Field # type: ignore
+from pydantic import BaseModel,EmailStr, # type: ignore
 from typing import List,Dict,Optional
 
 class Patient(BaseModel):
-    name : str
+    name : str = Field(min_length=1)
     email : EmailStr
     age  : int
     weight : float
