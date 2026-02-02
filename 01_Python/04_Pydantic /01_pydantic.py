@@ -1,11 +1,11 @@
 # pydantic is used to eliminate type validation. expected input format = expected input's format 
-from pydantic import BaseModel # type: ignore
+from pydantic import BaseModel, Field # type: ignore
 from typing import List,Dict,Optional
 
 class Patient(BaseModel):
-    name: str
+    name: str = Field(max_length=50)
     age: int
-    weight : float
+    weight : float = Field(gt=0)
     married : Optional[bool] = None
     allergies : List[str]
     contact_details : Dict[str, str]
