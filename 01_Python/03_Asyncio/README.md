@@ -1,0 +1,2 @@
+# Await
+### whenever await is called that particular couritine fn is suspended untill that particular function in loc is not completed and then the control goes to the event loop and then it sees for the scheduled task and runs that. Helps in executing tasks faster if there are many IO tasks like cpu sleep etc. 
