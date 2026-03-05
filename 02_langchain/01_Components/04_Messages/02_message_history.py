@@ -3,8 +3,8 @@ from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
 # chat template
 
 chat_template = ChatPromptTemplate.from_messages([
-    ('system', 'You are a helpful customer {chat_template} support chat bot'),
-    MessagesPlaceholder(variable_name='chat_template'),  # loads all the previous chat histroy stored in db, messageplaceholer a key and looks for it 
+    ('system', 'You are a helpful customer support chat bot'),
+    MessagesPlaceholder(variable_name='chat_history_1'),  # loads all the previous chat histroy stored in db, messageplaceholer a key and looks for it 
     ('human', '{query}')
 ])
 
