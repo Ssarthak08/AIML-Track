@@ -1,0 +1,18 @@
+AuroraQuant Internal Research Document (Confidential)
+
+Company: AuroraQuant Labs
+
+Section 1: Quantum Liquidity Engine (QLE)
+The Quantum Liquidity Engine is a proprietary system designed to predict microstructure-level liquidity shifts in synthetic markets. It uses entropy-adjusted order flow imbalance and temporal clustering of dark pool prints.
+
+Section 2: Adaptive Risk Envelope (ARE)
+The Adaptive Risk Envelope dynamically adjusts exposure based on volatility regimes. It calculates a risk coefficient using realized variance, implied skew, and latency arbitrage signals.
+
+Section 3: Execution Protocol - Phase Delta
+Execution Protocol Phase Delta introduces staggered order placement using non-linear time decay functions. Orders are fragmented into micro-batches to avoid detection.
+
+Section 4: Synthetic Alpha Generation
+Synthetic alpha is generated using cross-domain embeddings derived from macroeconomic indicators and sentiment vectors extracted from private data streams.
+
+Section 5: Failure Handling
+If the QLE confidence score drops below 0.42, the system enters Safe Mode, reducing all positions by 65 percent and halting new trades for 120 seconds.

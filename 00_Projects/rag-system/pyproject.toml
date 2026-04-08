@@ -1,0 +1,38 @@
+[project]
+name = "rag-system"
+version = "0.1.0"
+description = "Production-grade RAG system with Pinecone"
+authors = [
+    { name = "Your Name" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pydantic>=2.6.0",
+    "python-dotenv>=1.0.0",
+    # LLM
+    "openai>=1.0.0",
+    # Vector DB
+    "pinecone>=3.0.0",
+    # File parsing
+    "pypdf>=4.0.0",
+    "python-docx>=1.1.0",
+    # Tokenization
+    "tiktoken>=0.5.0",
+    # Utils
+    "numpy>=1.24.0",
+    "tqdm>=4.66.0",
+    "google-generativeai>=0.8.6",
+    "langchain>=0.3.28",
+    "langchain-community>=0.3.31",
+    "sentence-transformers>=5.1.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "isort>=5.13.0",
+    "mypy>=1.8.0"
+]
