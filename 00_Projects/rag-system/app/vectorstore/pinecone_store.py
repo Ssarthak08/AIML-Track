@@ -1,7 +1,6 @@
 from typing import List
 
 from pinecone import Pinecone, ServerlessSpec
-
 from app.config import config
 from app.schemas.chunk import Chunk
 

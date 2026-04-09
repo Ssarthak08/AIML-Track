@@ -1,5 +1,4 @@
 from typing import List
-
 from app.embeddings.embedder import Embedder
 from app.vectorstore.pinecone_store import PineconeStore
 from app.schemas.chunk import Chunk
