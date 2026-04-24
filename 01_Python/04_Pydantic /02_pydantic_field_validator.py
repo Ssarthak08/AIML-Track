@@ -7,7 +7,7 @@ class Patient(BaseModel):
     age  : int
     weight : float
     allergies : List[str]
-    contact_details : Dict[str, str]
+    contact_details : Dict[str, str] 
 
     @field_validator('email')  # jisper bhi constraints laganey hai use field validator on it 
     @classmethod                       # always
